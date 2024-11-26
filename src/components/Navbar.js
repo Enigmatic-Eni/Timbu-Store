@@ -41,7 +41,7 @@ export default function Navbar() {
             <div
                 className={`fixed inset-y-0 left-0 transform ${
                     isSidebarOpen ? "translate-x-0" : "-translate-x-full"
-                } transition-transform duration-300 ease-in-out bg-white w-64 z-50  shadow-lg`}
+                } transition-transform duration-300 ease-in-out bg-white w-64  z-50  shadow-lg`}
             >
                   <div className="flex space-x-10 px-6 py-6 border-b-2 border-[#C1C1C1]">
                     <FaTimes className="text-2xl cursor-pointer" onClick={toggleSidebar} />
@@ -124,7 +124,7 @@ export default function Navbar() {
                                     More <RiArrowDropDownLine />
                                 </a>
                             </div>
-                            {isDropdownOpen1 && (
+                            {isDropdownOpen1 &&(
                                 <div className=" absolute mt-3 bg-white border-[#C1C1C1] border-2 w-[165px]">
                                     <ul className=" font-medium">
                                         <li className=" text-black  border-b-2 border-[#C1C1C1] py-2 px-3">
