@@ -20,7 +20,7 @@ export default function HeroSection() {
             </div>
         </div>
 
-        <div className=' flex justify-around pt-16 items-center'>
+        <div className=' flex justify-around pt-16 items-center pb-16'>
             <div className=' pl-11'>
             <img src={shoe} className=' rounded-full w-[260px] h-[260px] lg:block hidden'/>
             </div>
